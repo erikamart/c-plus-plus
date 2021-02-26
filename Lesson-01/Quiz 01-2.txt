@@ -1,0 +1,73 @@
+Description: This is a 10-question multiple-choice Quiz.
+Instructions: Choose the best answer.
+NOTE: Answers are indicated by ** surrounding it.
+
+Question 1.
+    After coding a program, the programmer should perform which task before releasing it to the user?
+        a. ask the user to approve the machine code 
+     ** b. test the program with sample data  **
+        c. write a user manual
+        d. assemble the program with an interpreter
+
+Question 2.
+    Which type of structure makes a decision based on one or more conditions? 
+        a. question
+    **  b. selection  **
+        c. looping 
+        d. iteration
+
+Question 3.
+    An accountant that is part of a programming team working on a program that requires accounting experience is an example of which of the following?
+    **  a. subject matter expert  **
+        b. drag
+        c. engineer
+        d. top-level coordinator
+    
+Question 4.
+    With what type of program does the programmer focus on structures that represent screen elements such as check boxes and buttons or structures that represent real world items such as an employee or time card?
+    **  a. object-oriented  **
+        b. procedure-oriented 
+        c. assembly language 
+        d. machine language
+    
+Question 5.
+    C++, Visual Basic, C#, Python, and Java are all examples of what kind of language?
+        a. machine
+        b. mnemonic
+    **  c. programming  **
+        d. assembly
+    
+Question 6.
+    What do programs written in assembly language require to convert the assembly language instructions into machine language?
+        a. interpreter 
+        b. converter 
+    **  c. assembler  **
+        d. compiler
+    
+Question 7.
+    Which of the following is an example of an instruction written in assembly language?
+        a. sum = num1 + num2 
+        b. repeat 5 times
+    **  c. MUL bx, ax  **
+        d. 0000 0101 1100 0000
+
+Question 8.
+    Which type of structure do all programs use? 
+    **  a. sequence  **
+        b. selection 
+        c. repetition 
+        d. variable
+
+Question 9.
+    What are program instructions written in 1s and 0s called? 
+    **  a. machine code  **
+        b. procedure-oriented code 
+        c. assembly language
+        d. object-oriented language
+
+Question 10.
+    How many different states do the switches in machine language have? 
+        a.8
+        b. 16 
+    **  c.2  **
+        d.1

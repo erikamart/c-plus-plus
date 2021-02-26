@@ -1,0 +1,76 @@
+Description: This is a 10-question multiple-choice Quiz.
+Instructions: Choose the best answer.
+NOTE: Answers are indicated by ** surrounding it.
+
+Question 1.
+    Which of the following is a set of step-by-step instructions that accomplish a task? 
+        a. loop
+        b. mnemonic 
+    **  c. algorithm  **
+        d. heuristic
+
+Question 2.
+    With what type of program does the programmer focus on structures that represent screen elements such as check boxes and buttons or structures that represent real world items such as an employee or time card?
+        a. assembly language 
+        b. machine language 
+    **  c. object-oriented  **
+        d. procedure-oriented
+
+Question 3.
+    After coding a program, the programmer should perform which task before releasing it to the user?
+        a. ask the user to approve the machine code 
+        b. assemble the program with an interpreter 
+        c. write a user manual
+    **  d. test the program with sample data **
+
+Question 4.
+    Which of the following is a language typically used to create procedure-oriented programs?
+        a.C#
+        b. Python 
+        c. Java
+    **  d. COBOL  **
+
+Question 5.
+    An accountant that is part of a programming team working on a program that requires accounting experience is an example of which of the following?
+        a. engineer
+    **  b. subject matter expert  **
+        c. drag
+        d. top-level coordinator
+
+Question 6.
+    What type of structure is the following set of statements an example of?
+                    while not end of file
+                        read a line
+                    end while
+        a. decision 
+        b. sequence 
+        c. selection 
+    **  d. repetition  **
+
+Question 7.
+    Which statement is an example of a repetition structure? 
+    **  a. walk forward  **
+        b. sit down
+        c. if (Ginger is on the bench) 
+        d. repeat (2 times)
+
+Question 8.
+    With whom should a programmer have extensive interaction before converting a solution to a problem into a computer program?
+    **  a. user  **
+        b. system engineer
+        c. compiler vendor
+        d. language developer
+
+Question 9.
+    Which type of structure do all programs use? 
+    **  a. sequence  **
+        b. selection 
+        c. repetition 
+        d. variable
+
+Question 10.
+    What are program instructions written in 1s and 0s called? 
+        a. assembly language
+        b. procedure-oriented code 
+        c. object-oriented language 
+    **  d. machine code **

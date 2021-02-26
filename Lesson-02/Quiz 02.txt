@@ -1,0 +1,83 @@
+Description: This is a 10-question multiple-choice Quiz.
+Instructions: Choose the best answer.
+NOTE: Answers are indicated by ** surrounding it.
+
+Question 1.
+    Which of the following pseudocode statements represents output? 
+    **  a. display the miles per gallon  **
+        b. calculate the mile per gallon
+        c. enter the miles driven
+        d. divide the miles driven by gallons used
+    
+Question 2.
+    What does the parallelogram symbol in a flowchart represent? 
+        a. processing
+    **  b. input/output  **
+        c. branching 
+        d. start/stop
+    
+Question 3.
+    What type of chart helps programmers organize and summarize the results of the analysis step?
+        a. pseudocode 
+        b. ROI
+    **  c. IPO  **
+        d. flow
+    
+Question 4.
+    Which of the following would be an example of invalid data? 
+        a. an age between 1 and 100
+    **  b. a negative tax rate  **
+        c. a random number between 0 and 1 
+        d. a selling price of $1000
+    
+Question 5.
+    Review the following pseudocode. What type of item is sales tax rate?
+    1. enter the sale price and sales tax rate
+    2. calculate the cost by multiplying the sale price by the sales tax rate and then adding the result to the sale price
+    3. display the cost
+        a. processing 
+        b. output
+        c. code
+    **  d. input  **
+    
+Question 6.
+    What is the first step in the problem-solving process? 
+        a. write the documentation
+        b. plan the algorithm
+    **  c. analyze the problem  **
+        d. code the algorithm into a program
+    
+Question 7.
+    In the following pseudocode, which item is considered a processing item?
+
+    1. enter the midterm score and final score
+    2. calculate the sum by adding together the midterm score and final score 
+    3. calculate the average score by dividing the sum by 2
+    4. display the average score
+
+        a. midterm score 
+    **  b. sum  **
+        c. final score
+        d. average
+    
+Question 8.
+    Most algorithms begin with instructions to do which of the following? 
+        a. perform calculations
+        b. print results
+    **  c. enter input items  **
+        d. output user instructions
+    
+Question 9.
+    What is the second step in the problem-solving process? 
+    **  a. plan the algorithm  **
+        b. code the algorithm into a program 
+        c. write the documentation
+        d. analyze the problem
+    
+Question 10.
+    Which step comes after you plan the algorithm in the problem-solving process? 
+        a. analyze the problem
+        b. evaluate and modify the program 
+        c. code the algorithm into a program 
+    **  d. desk-check the algorithm  **
+        

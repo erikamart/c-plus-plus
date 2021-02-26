@@ -1,0 +1,62 @@
+Lesson 02 Instructions:
+Objective: This assignment will help you practice breaking a problem down into a series of short, non-detailed sequential steps as part of the planning process.
+
+Assignment:
+1)
+    a) Write a series of roughly 15 steps for the process:
+        Clean the bathroom in your home
+    
+    b) Check your solution - be sure it contains a good amount of detail - but not too much or too little.
+
+2)
+    a) Consider the following computer programming problem:
+         Bills’ Freight Service ships boxes worldwide and they need a program to help determine the shipping cost of a single box. Shipping cost is based on the volume of the box shipped. Volume is determined by inputting the length, width and height of the box in inches. There are no other inputs. The volume is computed from the formula boxVolume = (boxLength * boxWidth * boxHeight). The shipping cost is based on the fact that it costs $1.75 to ship each cubic inch of the box, and we also add a $3.50 fuel surcharge overall. There is no sales tax. So, a second formula to do this part is shipCost = (boxVolume * 1.75) + 3.50. To keep the program simple, we simply include the 1.75 and 3.50 right in the second formula, these are not variables or inputs. Finally, once the shipping cost is known we have to display it to the user, then the program ends.
+    
+    b) Have a look at the IPO charts in the book (An Introduction to Programming with C++ 7th Edition by Diane Zak, published by Cengage Learning) - Figure 2-9 on page 26 and Figure 2-22 on page 32.
+    
+    c) Write up an IPO chart for this problem. Be sure to have an "Input, Processing, Output and Algorithm" part.
+        * As a hint, there are 3 Input variables, 1 Processing variable and 1 Output variable. The algorithm can be done in 4 steps.
+    Some notes:
+        * Be sure to use the problem description as a close guide - you can use the variable names in there, and you should use the formulas as well.
+        * Do NOT add any extra inputs or outputs. Some people might want to display the volume of the box, for example. Don't do that. Just do what the paragraph wants
+        
+    d) Desk-check your solution.
+
+*************************************************************************************
+
+Lesson 02 Solution:
+
+1.) Algorithm
+    1.	get cleaning supplies
+    2.	get to bathroom
+    3.	put floormats/towels to wash
+    4.  remove personal surface items
+    5.	clean bath/shower area
+    6.	clean toilet inside
+    7.	clean toilet outside
+    8.	clean sink
+    9.	clean vanity
+    10.	sweep floor
+    11.	mop floor
+    12.	put floormats/towels in dryer
+    13.	replace clean floormats/towels
+    14.	replace personal surface items
+    15.	put cleaning supplies away	
+    End
+
+2.)
+    Input:
+        boxLength
+        boxWidth
+        boxHeight
+    Processing:
+        boxVolume
+    Output:
+        shipCost
+    Algorithm:
+    1.	input boxLength, boxWidth, boxHeight
+    2.	calculate boxVolume = (boxLength * boxWidth * boxHeight)
+    3.	calculate shipCost = (boxVolume *1.75) + 3.50
+    4.	display shipCost
+    End
+
