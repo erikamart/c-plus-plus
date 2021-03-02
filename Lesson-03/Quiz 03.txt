@@ -1,0 +1,73 @@
+Description: This is a 10-question multiple-choice Quiz.
+Instructions: Choose the best answer.
+NOTE: Answers are indicated by ** surrounding it.
+
+Question 1.
+    Which of the following is NOT a string literal constant? 
+        a. “”
+        b. “&”
+        c. “Hello” 
+    **  d. 'abc'  **
+    
+Question 2.
+    Which of the following is NOT a rule for naming a memory location in C++? 
+    **  a. names in C++ are not case sensitive  **
+        b. the name must begin with a letter 
+        c. the name cannot be a keyword
+        d. the name cannot contain spaces
+    
+Question 3.
+    What is an item of data that can appear in a program instruction and can be stored in a memory location.
+        a. keyword
+        b. named constant 
+        c. variable
+    **  d. literal constant  **
+    
+Question 4.
+    What is the name of a coding scheme that assigns a specific numeric code to each character on your keyboard?
+        a. Octal
+        b. Hexadecimal 
+    **  c. ASCII  **
+        d. Decimal
+    
+Question 5.
+    Which of the following best describes a memory location whose value can change during runtime?
+    **  a. variable  **
+        b. named constant 
+        c. statement
+        d. keyword
+    
+Question 6.
+    What is a memory location whose value cannot change during runtime called? 
+        a. variable
+    **  b. named constant  **
+        c. statement
+        d. keyword
+    
+Question 7.
+    What is the term used for the assignment a beginning value to a memory location? 
+        a. implicit type conversion
+    **  b. initializing  **
+        c. revision
+        d. explicit type conversion
+    
+Question 8.
+    If the value’s data type does not match the memory location’s data type, what process does the computer use to convert the value to fit the memory location?
+        a. rounding
+        b. explicit type conversion 
+    **  c. implicit type conversion  **
+        d. truncation
+
+Question 9.
+    Which of the following is a word that has a special meaning in the programming language you are using?
+        a. hashtag
+        b. variable
+    **  c. keyword  **
+        d. named constant
+
+Question 10.
+    What character is used to enclose a character literal constant? 
+    **  a. single quotes  **
+        b. double quotes 
+        c. brackets
+        d. parentheses

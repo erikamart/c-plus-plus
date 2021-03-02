@@ -1,0 +1,20 @@
+Lesson 4 Instructions:
+Objective: To experience coding, desk checking, compiling, correcting and executing an actual C++ program.
+
+Assignment:
+    1) "Complete" the balloon program you wrote the IPO for in Lesson 3 by turning it into C++ code. Be sure to use a constant for PI.
+
+    2) Create a new project. Call it "balloonsProject".
+
+    3) Click Project then "Add New Item" to make the area where you can enter the C++ code. 
+        * Call the C++ program lesson4Code - that is, you are creating a new file called "lesson4Code.cpp".
+        * Be sure you include your name in a comment block at the top.
+    4) Type in your program. Be sure to save all when you are complete.
+    5) Compile your program. Correct any errors until the compile is successful.
+    6) Execute your program and test it to be sure it works and produces the correct result.
+
+*******************************************************************************
+
+Lesson 04 Solution:
+
+See the file called "lesson4Code.cpp"

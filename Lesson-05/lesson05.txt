@@ -1,0 +1,10 @@
+Lesson 5 Instructions:
+Objectives: 
+    * Identify the selection structure (7)
+    * Recognize the various parts of an if statement, such as the relational expression and true and false bodies (7)
+    * List several ways to code a relational expression (7)
+    * Describe a real-world situation where use of a selection structure would be appropriate (7)
+
+Read Chapter 5 of the book. Skim the Chapter Summary and Key Terms at the end of the Chapter and attempt the mini-quizzes and review questions.
+
+Do Quiz 05.

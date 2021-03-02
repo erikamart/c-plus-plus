@@ -1,0 +1,73 @@
+Lesson 6 Instructions:
+Objectives: Develop a program with selection structure constructs in C++ programming.
+
+Assignment:
+    1) Consider the following computer programming problem:
+    Hammerschlag Corp needs a program to help compute raises for their employees. When the program begins, the user will be prompted to enter a current salary. Then a raise will be computed according to the following table:      
+
+    Old Salary                  Raise
+    up to $14,999.99            5%
+    $15,000.00 to $49,999.99    7%
+    $50,000.00 to $99,999.99    10%
+    $100,000.00 and higher      15%
+
+    After the raise is determined, it will be added to the current salary to give the new salary. There will be 2 outputs - the raise and the new salary, then the program will stop.
+
+    For example, if a current salary of $35200.00 were entered, the program would display: You will receive a raise of $2464.00, for a new yearly salary of $37664.00. (You can use this for test data.)
+
+    Notes:
+        * Money data input and output should handle/show decimals. Show a dollar sign on the input prompt, and on the output - along with 2 decimal places only. 
+        * Use no "commas" for larger numbers though. (i.e. $123456.00 not $123,456.00)
+        * Remember that dollar signs are for display only - you CANNOT use dollar signs inside IF statements!
+        Homework Assignment - Lesson 6 – 2017SP-COSC-1436-23402
+        * Don't worry about rounding, ignore that.
+        * Obviously, you need to use a series of IF statements to process the raise.
+        * There are 2 ways to do that - either a series of several separate IF statements each using a logic function (AND, which is && in C++) OR
+        * You may nest the IF statements, in which case you do not need, and may not use any logic functions.
+        * Pick ONE of these and do it, if you mix nesting with logic you will overcomplicate the problem and will lose points.
+        * Your Instructor will not test your program with any inputs other than numeric values, so no error checking at all is needed - and none is allowed. * Do not declare any constants in the program - they are not needed.
+        * Remember good coding standards - appropriate variable names and good comments, and an easy to read (well-spaced) program.
+
+    2) Write up an IPO chart for this problem. Be sure to have an "Input, Processing, Output and Algorithm" part. 
+    
+    3) Desk-check your solution.
+
+*******************************************************************************
+
+Lesson 06 Solutions:
+
+1) See the file called "lesson6Code.cpp" for answer.
+
+2) See below:
+
+Written by Erika Martinez
+Intro to Programming – C++
+Assignment – Lesson 6
+3-14-17
+
+Salary Problem
+Input: baseSalary
+
+Processing: raiseRate
+
+Output: raise, newSalary
+
+Algorithm:
+1.  enter the baseSalary
+2.  some IF statements for the logic
+      if baseSalary is less than or equal to 14,999.99 
+raiseRate = .05
+      end if
+      if baseSalary is greater than or equal to 15000.00 AND less than or equal to 49999.99
+ raiseRate = .07
+      end if 
+       if baseSalary is greater than or equal to 50000.00 AND less than or equal to 99999.99
+             raiseRate = .10
+       end if
+       if baseSalary is greater than or equal to 100000.00
+raiseRate = .15
+       end if
+3. raise = raiseRate * baseSalary
+    newSalary = baseSalary + raise
+4. display raise, newSalary
+End

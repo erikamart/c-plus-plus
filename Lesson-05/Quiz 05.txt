@@ -1,0 +1,82 @@
+Description: This is a 10-question multiple-choice Quiz.
+Instructions: Choose the best answer.
+NOTE: Answers are indicated by ** surrounding it.
+
+Question 1.
+    Selection structures that contain instructions on both the true and false paths are referred to as which of the following?
+        a. single-alternative 
+    **  b. dual-alternative  **
+        c. two path
+        d. none of the above
+    
+Question 2.
+    Which of the following describes an item that appears between parentheses in a function’s syntax?
+        a. data type
+    **  b. argument  **
+        c. relational operator 
+        d. function body
+    
+Question 3.
+    What is another way that the condition below could be written?
+        ( num <= 10 )
+
+        a.(num < 11 || num < 10)
+        b.(num > 9)
+    **  c.( (num < 10) || (num = 10) )  **
+        d.( (num < 10) && (num = 10) )
+    
+Question 4.
+    In a selection structure, if a path contains more than one statement, the statements must be entered as a statement block, which means they must be enclosed in which of the following?
+        a. single quotes 
+        b. double quotes 
+    **  c. braces  **
+        d. parentheses
+    
+Question 5.
+    Which of the following comparison operators represents “not equal to” in C++? 
+        a. < >
+        b. <= 
+    **  c. !=  **
+        d. /=
+    
+Question 6.
+    Comparison operators evaluate to what type of value? 
+    **  a. boolean  **
+        b. real
+        c. integer 
+        d. character
+    
+Question 7.
+    What value is stored in the letter variable after the following code is executed?
+        char letter = ‘a’;
+        char letter2 = ‘ ’;
+        letter2 = toupper(letter);
+
+    **  a. a  **
+        b. A
+        c. a blank space
+        d. none of the above
+    
+Question 8.
+    Which symbol is used in C++ for the logical And operator? 
+        a. %
+        b. ||
+    **  c. &&  **
+        d. @
+    
+Question 9.
+    To display real numbers in exponential notation, the programmer would use which stream manipulator?
+        a. fixed
+        b. real
+    **  c. scientific  **
+        d. none of the above
+    
+Question 10.
+    What would be the result of the following C++ code (assuming all necessary directives)?
+        double number = 1234.567;
+        cout << scientific << number << endl;
+
+        a. 1234.6
+        b. 1234.567
+    **  c. 1.234567e+03  **
+        d. 1234.567000

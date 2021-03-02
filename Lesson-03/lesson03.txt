@@ -1,0 +1,47 @@
+Lesson 03 Instructions:
+Objective: Write a plan for a program including selection of memory locations.
+
+Assignment:
+1) Consider the following computer programming problem:
+    A helium balloon seller wishes to have a computer program to help with her business. When someone makes a purchase, they buy spherical balloons all of the same size, and she needs to know the total volume of helium needed to inflate them all. 2 items are entered into the program - the radius of a spherical balloon and number of balloons bought. Then, your program should calculate the volume of ONE balloon. You will have to find a formula for the volume of a sphere to do this. Save the answer in a processing variable. Then, the total volume of all balloons needs to be calculated. This is easy since you know the volume of one balloon and you also know the number of balloons. This total volume of all balloons (which is the amount of gas needed) is then displayed and the program stops.
+    
+    Notes:
+    * You will find that the quantity "PI" is involved. That is a constant, and should be noted as a processing variable.
+    * This program has 2 inputs, 2 processing variables, and 1 output. Use short, descriptive variable names with no spaces in them now.
+    * If you want to check your work, suppose someone buys 6 balloons, and the radius of each is 9 inches. The total volume is 18312.5 cubic inches.
+    * Keep in mind for later, when you turn this into a C++ program in a future Homework, that you have to handle decimals. This does not matter for now, though.
+
+2) Write up an IPO chart for this problem. Be sure to have an "Input, Processing, Output and Algorithm" part.
+
+3) Desk-check your solution. Be sure this works, you will turn it into your first C++ program in the next Lesson.
+
+
+
+*******************************************************************************
+
+Lesson 03 Solution:
+
+Written by Erika Martinez
+Intro to Programming – C++
+Assignment – Lesson 3
+2-15-17
+
+Balloon Problem
+
+Input: 
+qtyBalloon
+radius
+
+Processing: 
+sphereVolume
+PI (3.1415)
+
+Output: 
+totalVolume
+
+Algorithm:
+1.	enter qtyBalloon, radius
+2.	calculate sphereVolume = 1.3333 * PI * radius * radius * radius
+3.	calculate totalVolume = qtyBalloon * sphereVolume
+4.	display totalVolume
+End

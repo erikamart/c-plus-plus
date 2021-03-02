@@ -22,9 +22,14 @@ Assignment:
         
     d) Desk-check your solution.
 
-*************************************************************************************
+*******************************************************************************
 
 Lesson 02 Solution:
+
+Written by Erika Martinez
+Intro to Programming – C++
+Assignment – Lesson 2
+2-4-17
 
 1.) Algorithm
     1.	get cleaning supplies
