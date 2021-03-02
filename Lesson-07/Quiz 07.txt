@@ -1,0 +1,73 @@
+Description: This is a 10-question multiple-choice Quiz.
+Instructions: Choose the best answer.
+NOTE: Answers are indicated by ** surrounding it.
+
+Question 1.
+	What type of variable is used for adding together a series of values?
+        a.	initializer
+        b.	counter
+    **  c.	accumulator  **
+        d.	ticker
+ 
+Question 2.
+	Which two C++ statements can be used to code pretest loops?
+    **  a.	for, while  **
+        b.	switch, if
+        c.	if, while
+        d.	for, switch
+  
+Question 3.
+	In a pretest loop, what should you include in the loop body to ensure that there is a way to enter the sentinel value after the loop body instructions are processed the first time?
+        a.	trip value
+        b.	priming read
+    **  c.	update read  **
+        d.	trailer value
+  
+Question 4.
+	What is used to terminate a counter-controlled loop?
+        a.	boolean value
+    **  b.	counter  **
+        c.	updater
+        d.	sentinel value
+  
+Question 5. 
+	What is the correct order of the possible arguments in a for statement?
+        a.	update, initilization, condition
+    **  b.	initialization, condition, update  **
+        c.	condition, initialization, update
+        d.	condition, update, initialization
+   
+Question 6.
+	A loop whose instructions are processed indefinitely is referred to as which of the following?
+    **  a.	infinite loop  **
+        b.	terminal loop
+        c.	for statement
+        d.	while statement
+   
+Question 7.
+	The condition in a while loop must evaluate to what type of value?
+        a.	integer
+        b.	string
+    **  c.	Boolean  **
+        d.	char
+  
+Question 8.
+	In a repetition structure, what is the requirement for not repeating the instructions called?
+        a.	sentinel value
+        b.	break condition
+        c.	looping condition
+    **  d.	loop exit condition  **
+  
+Question 9.
+	What must happen in a pretest loop before the instructions in the loop are processed?
+        a.	the condition must evaluate to false
+        b.	the condition must evaluate to a value greater than 0
+        c.	the condition must evaluate to a value less than 0
+    **  d.	the condition must evaluate to true  **
+  
+Question 10.
+	What type of value is used to update a counter?
+        a.	variable
+        b.	negative
+    **  c.	constant  **
+        d.	floating point

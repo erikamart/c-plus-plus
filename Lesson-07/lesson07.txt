@@ -1,0 +1,10 @@
+Lesson 7 Instructions:
+Objectives: 
+* Identify a pretest loop (7)
+* Identify a pretest loop using the C++ "while" statement (7) 
+* List uses for counter and accumulator variables (4)
+* Identify a pretest loop using the C++ "for" statement (7)
+
+Read Chapter 7 of the book. Skim the Chapter Summary and Key Terms at the end of the Chapter and attempt the mini-quizzes and review questions.
+
+Do Quiz 07. See the file called "Quiz 07.txt".

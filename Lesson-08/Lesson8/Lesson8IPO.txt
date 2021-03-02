@@ -1,0 +1,22 @@
+Erika Martinez
+Intro to Programming – C++
+Assignment – Lesson 8
+4-5-17
+
+Factorial Problem
+Input: numberIn
+
+Processing: counter
+
+Output: factorial
+
+Algorithm:
+1.  enter the numberIn
+2.  if (numberIn is greater than or equal to 2 AND numberIn is less than or equal to 60)
+	repeat for (counter = 1, counter less than or equal to numberIn, in increments of 1)
+		factorial = factorial * counter
+	end repeat
+	display factorial
+    end if
+3. display error message
+End
