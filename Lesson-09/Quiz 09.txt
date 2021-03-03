@@ -1,0 +1,73 @@
+Description: This is a 10-question multiple-choice Quiz.
+Instructions: Choose the best answer.
+NOTE: Answers are indicated by ** surrounding it.
+
+Question 1.
+    Which of the following is another term for calling a function? 
+        a. instantiate
+        b. declare 
+    **  c. invoke  **
+        d. initialize
+
+Question 2.
+    What is the proper function type to use when declaring a function that takes two floating point numbers and calculates and displays the product with no return value?
+        a. long 
+    **  b. void  **  
+        c. double 
+        d. float
+
+Question 3.
+    Which of the following would be a practical use for a void function? 
+        a. calculating the area of a rectangle
+        b. returning the average of two numbers 
+        c. returning the sum of two numbers
+    **  d. displaying two numbers  **
+    
+Question 4.
+    Passing a variable’s unique address to a function is referred to as which of the following?
+        a. passing by parameter 
+        b. passing by invocation 
+        c. passing by value
+    **  d. passing by reference  **
+    
+Question 5.
+    Unless you specify otherwise, in what manner are variables passed to functions? 
+    **  a. by value  **
+        b. by invocation 
+        c. by reference 
+        d. by parameter
+    
+Question 6.
+    The function body in a void function is enclosed in which of the following? 
+        a. asterisks
+        b. parentheses 
+        c. quotes
+    **  d. braces  **
+    
+Question 7.
+    Which of the following is NOT required in a void function? 
+        a. function body
+    **  b. return statement  **
+        c. ending brace 
+        d. function header
+
+Question 8.
+    Which of the following is a proper declaration of a function that sums and displays two integers and returns no value?
+    **  a. void printSum(int val1, int val2)  **
+        b. int printSum(val1, val2)
+        c. printSum(void val1, void val2) 
+        d. int printSum(int val1, int val2)
+
+Question 9.
+    In a void function, what is true about the return statement? 
+        a. It is required.
+        b. It is always initalizd to 0.
+    **  c. It is not necessary.  **
+        d. You cannot use a return statement.
+
+Question 10.
+    The arguments that are passed to a function are referred to as which of the following?
+        a. corresponding arguments 
+        b. formal arguments
+    **  c. actual arguments  **
+        d. required arguments

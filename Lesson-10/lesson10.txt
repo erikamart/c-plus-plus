@@ -1,0 +1,117 @@
+Lesson 10 Instructions:
+
+Objectives: (SLOs)
+    * Create and invoke a C++ function that returns a value (3) 
+    * Pass information "by value" to a C++ function (3 )
+    * Write a function prototype in C++ (3)
+    * Identify a function that does not return a value (3)
+    * Identify the differences between functions that return values and functions that do not (3) 
+    * Define the differences between "by value" and "by reference" parameter passing (3)
+
+Assignment:
+1) Read and study Chapter 10 in the textbook, "An introduction to Programming with C++ by Diane Zak, 7th ed.".
+2) Skim the Chapter Summary and Key Terms at the end of the Chapter. 
+3) Attempt the Mini-Quizzes and Review Questions at the end of the Chapter to help prepare you for the Quiz.
+4) Complete Lesson 10 Quiz.
+5) Complete Assignment - Lesson 10:
+
+    Objective: Demonstrating the use of a function within a C++ program.
+
+    Assignment:
+    A) Recall the Cone Volume Calculator program:
+
+        //Cone Volume Calculator Program 
+        // Intro C++, Lesson 4
+        // Written by Bill H, Nov 2013
+
+        #include <iostream> 
+        using namespace std;
+
+        int main( ) 
+        {
+            //Declare variables and constants double coneRadius = 0.0;
+            double coneHeight = 0.0;
+            const double PI = 3.1415;
+            double coneVolume = 0.0;
+
+            //Prompt the user for inputs
+            cout << "Enter the radius of the cone: "; cin >> coneRadius;
+            cout << "Enter the height of the cone: "; cin >> coneHeight;            
+
+            //Do the calculation
+            coneVolume = 0.3333 * PI * coneRadius * coneRadius * coneHeight;
+
+            //Display the result
+            cout << "The volume of your cone is: " << coneVolume << endl;
+
+            system("pause");
+            return 0;
+        } //end of main
+
+    B) For this assignment, we want the program to do the same thing, but with not one main() function, but instead one main() function PLUS one user defined function called computeConeVolume that contains the calculation. In other words, remove the one line calculation, replace it with a function call, then write and add the function below main with the calculation, surrounded any other syntax you need to complete it. Determine how to do all that. Note that recent sample programs can be of a real help to you here, in addition to the book, of course.
+        Notes:
+        * The function should contain local variables and a constant declared and must have the calculation, it may not do anything else such as input or
+        output.
+        * You may not declare "global" variables anywhere. No variables above or outside of main() and the function are allowed.
+        * A value-returning function should be used because it's a little simpler to understand, but you can employ a void function if you desire.
+        * Be sure to have a function prototype at the top of the code, then main, then your function.
+        * You may test your code by copying and running the original program ( with only main() ), then comparing the results to your new program. * Test with "real" numbers including decimals, like 3.4 and 5.8
+        * Don't use 1 anywhere - that number is so simple it can give the right answer sometimes if the program is wrong.
+    
+    C) Make a folder on your computer called "Lesson10".
+    
+    D) Create a new project. Call it "coneFunctionProject" and place it in the "Lesson10" folder.
+    
+    E) Click Project then "Add New Item" to make the area where you can enter the C++ code.
+        * Call the C++ program "lesson10Code.cpp".
+        * Be sure you include your name in a comment block at the top.
+
+    F) Develop and enter the C++ program. Be sure to save all when you are complete.
+
+    G) Compile your program. Correct any errors until the compile is successful.
+
+    H) Execute your program and test it to be sure it works and produces the correct result.
+
+*******************************************************************************
+
+Lesson 10 Solution: 
+    * See the file "Quiz 10.txt"
+    * See the folder "Lesson10" and the code for lesson10Code.cpp below:
+    
+        //Cone Volume Calculator Program
+        // Intro C++, Lesson 10
+        // Written by Erika Martinez, April 2017
+        #include <iostream>
+        using namespace std;
+
+        //function prototype
+        void computeConeVolume(double radius, double height, double &volume);
+
+        int main()
+        {
+            //declare variables and constants
+            double coneRadius = 0.0;
+            double coneHeight = 0.0;
+            double coneVolume = 0.0;
+
+            //prompt user for inputs
+            cout << "Enter the radius of the cone: ";
+            cin >> coneRadius;
+            cout << "Enter the height of the cone: ";
+            cin >> coneHeight;
+
+            //call function to calculate volume
+            computeConeVolume(coneRadius, coneHeight, coneVolume);
+
+            //display result
+            cout << "The volume of your cone is: " << coneVolume << endl;
+
+            system("pause");
+            return 0;
+        } //end of main
+
+        //****function definition****
+        void computeConeVolume(double radius, double height, double &volume)
+        {
+            volume = 0.3333 * 3.1415 * radius * radius * height;
+        } // end of computeConeVolume function

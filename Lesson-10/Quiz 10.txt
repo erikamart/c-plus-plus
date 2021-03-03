@@ -1,0 +1,73 @@
+Description: This is a 10-question multiple-choice Quiz.
+Instructions: Choose the best answer.
+NOTE: Answers are indicated by ** surrounding it.
+
+Question 1.
+    Which of the following is a proper declaration of a function that sums and displays two integers and returns no value?
+        a. int printSum(val1, val2)
+        b. int printSum(int val1, int val2) 
+        c. printSum(void val1, void val2) 
+    **  d. void printSum(int val1, int val2)  **
+
+Question 2.
+    Which of the following is NOT required in a void function? 
+        a. ending brace
+        b. function body
+        c. function header 
+    **  d. return statement  **
+                                                    
+Question 3.
+    Only functions defined where, in relation to the main function, require a function prototype to be coded?
+        a. above 
+    **  b. below  **
+        c. within 
+        d. outside
+
+Question 4.
+    In a void function, what is true about the return statement? 
+        a. It is required.
+        b. It is always initalizd to 0.
+    **  c. It is not necessary.  **
+        d. You cannot use a return statement.
+
+Question 5.
+    Passing a variable’s unique address to a function is referred to as which of the following?
+        a. passing by invocation 
+    **  b. passing by reference  **
+        c. passing by value
+        d. passing by parameter
+
+Question 6.
+    Which symbol is used to represent the address-of operator? 
+    **  a. &  **
+        b. $ 
+        c. @ 
+        d. #
+
+Question 7.
+    If you want a function to modify the value stored in a variable, how do you need to pass the variable?
+    **  a. by reference  **
+        b. by parameter 
+        c. by value
+        d. by invocation
+                                                                                                                            
+Question 8.
+    What is the correct statement needed to call a void function named sumIt that changes the value of the variable named totalSum?
+        a. void sumIt(totalSum); 
+    **  b. sumIt(&totalSum);  **
+        c. @totalSum = sumIt(); 
+        d. totalSum = sumIt();
+
+Question 9.
+    What is the scope of the variables listed in a function? 
+    **  a. local to the function  **
+        b. global to the program
+        c. referential to the function
+        d. global to the main() function
+
+Question 10.
+    Which of the following looks like a typical call to a void function? 
+        a. printSum(a, b) = y;
+    **  b. printSum(a, b);  **
+        c. printSum[a, b];
+        d. x = printSum(a, b);
