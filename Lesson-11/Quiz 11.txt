@@ -1,0 +1,86 @@
+Description: This is a 10-question multiple-choice Quiz.
+Instructions: Choose the best answer.
+NOTE: Answers are indicated by ** surrounding it.
+
+Question 1.
+    What subscript should be used to access the fourth element in a one-dimensional array?
+    **  a. 3  **
+        b. 4 
+        c. 2 
+        d. 5
+
+Question 2.
+    Each variable within an array is referred to as which of the following? 
+        a. index
+        b. pointer 
+    **  c. element  **
+        d. scalar
+
+Question 3.
+    When passing an array to a function, which of the following should come after the formal parameter name of the array in the function header to indicate it is an array?
+        a. & 
+    **  b. [ ]  **
+        c. || 
+        d. { }
+
+Question 4.
+    Assigning initial values to an array is often referred to as doing what to the array? 
+    **  a. populating  **
+        b. creating
+        c. instantiating 
+        d. declaring
+
+Question 5.
+    What, if anything, is needed to fix the following code so that the elements of the array are printed, one line at a time?
+
+        char myArray[4] = {'a', 'b', 'c', 'd'};
+        for (int i = 1; i < 4; i += 1)
+            cout << myArray[i] << endl;
+
+        a. nothing needs to be changed
+        b. change the loop comparison to i <= 3
+        c. change the array declaration to myArray[3] 
+    **  d. change the initial value of i  **
+
+Question 6.
+    How can the code in the following example best be described?
+
+        int scoreThreshold[4] = {90, 80, 70, 60}; char letterGrade[4] = {'A', 'B', 'C', 'D'};
+
+        a. multi-value arrays
+        b. two-dimensional array 
+        c. scalar arrays
+    **  d. parallel arrays  **
+
+Question 7.
+    Before using an array in a program, what first must be done to the array? 
+        a. instantiate it
+        b. populate it 
+    **  c. declare it  **
+        d. load it
+    
+Question 8.
+    What value is a subscript assigned to access the first element in a one-dimensional array?
+    **  a. 0  **
+        b. 1
+        c. -1
+        d. NULL
+    
+Question 9.
+    Which type of sort provides a quick and easy way to sort the items stored in an array, as long as the number of items is relatively small?
+        a. binary sort 
+    **  b. bubble sort  **
+        c. position sort 
+        d. insertion sort
+    
+Question 10.
+    Given the following code, which statement displays each element of the array, one line at a time?
+
+        char myArray[4] = {'a', 'b', 'c', 'd'};
+        for (int i = 0; i < 4; i += 1)
+        ---- code goes here ----
+
+        a. cout >> myArray[i] >> endl; 
+    **  b. cout << myArray[i] << endl;  **
+        c. cout >> myArray >> endl;
+        d. cout << myArray[4] << endl;

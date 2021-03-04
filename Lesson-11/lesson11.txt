@@ -1,0 +1,26 @@
+Lesson 11 Instructions:
+
+Objectives: (SLOs)
+    * Recognize how to declare, initialize, populate and display a one-dimensional array (4)
+    * Select operations to determine the total and average of the values in a one-dimensional array (4) * Select operations to access and search a one-dimensional array (4)
+    * Show a process to find the highest value in a one-dimensional array (4)
+    * Define parallel one-dimensional arrays (4)
+    * Determine and show a process for using the Internet for programming assistance (1)
+
+Assignment:
+1) Read and study Chapter 11 the textbook, "An introduction to Programming with C++ by Diane Zak, 7th ed.".
+2) Skim the Chapter Summary and Key Terms at the end of the Chapter. 
+3) Attempt the Mini-Quizzes and Review Questions at the end of the Chapter to help prepare you for the Quiz.
+4) Complete Lesson 11 Quiz.
+5) Complete a Discussion Board post for Lesson 11:
+    A) Prepare a Discussion Board post:
+        This post can help you with not only arrays that you are currently working on, but any general programming issue you may have when it comes to getting programs done. The fact is, programmers often have trouble or get stuck when working on a problem. In class you can ask another student or your Instructor, in the real world you can consult with your boss or a colleague. More and more, though people are turning to the Internet for help and you should know how to do that as well.
+
+        We have already seen the Cplusplus tutorial and Wikipedia as sources of help, but you have to do the looking yourself for the answer. For this discussion, find other places you can go and people or Internet sites where you can ask a question and get a response about a C++ programming issue you may have. Find some person or site that will help!
+
+        Find your source of help, note the URL, and then describe it - who helps, what's it for, get a "sample" question and answer if possible and comment on if this seems to be useful or not (some sites that offer help don't deliver!) Write a one-third page.
+
+*******************************************************************************
+
+Lesson 11 Solution: 
+    * See the file "Quiz 11.txt"
