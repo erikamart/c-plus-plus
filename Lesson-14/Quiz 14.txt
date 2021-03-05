@@ -1,0 +1,73 @@
+Description: This is a 10-question multiple-choice Quiz.
+Instructions: Choose the best answer.
+NOTE: Answers are indicated by ** surrounding it.
+
+Question 1.
+    What symbol is used as the Not logical operator in C++? 
+        a. x
+    **  b. !  **
+        c. <>
+        d. ?
+
+Question 2.
+    Which must be included in a program in order to create a file object in that program? 
+    **  a. an #include directive  **
+        b. a using statement
+        c. a using file statement 
+        d. a #filer directive
+
+Question 3.
+    With respect to a sequential access file, which of the following terms best describe a single item of information about a person, place, or thing?
+        a. database 
+        b. file
+    **  c. field  **
+        d. record
+
+Question 4.
+    A collection of one or more related fields that contain all of the necessary data about a specific person, place, or thing is known as which of the following?
+        a. item
+        b. file
+        c. database 
+     **  d. record   **
+
+Question 5.
+    Data can be accessed by its byte location using which file type? 
+        a. random access
+     **  b. binary   **
+        c. sequential access 
+        d. text
+
+Question 6.
+    Which mode argument, used with an ifstream object, is used to open a file for input purposes?
+     **  a. ios::in   **
+        b. open::input 
+        c. ios::app
+        d. open::in
+
+Question 7.
+    The is_open function returns a value of which of the following data types? 
+        a. char
+        b. short
+        c. int
+     **  d. Boolean   **
+
+Question 8.
+    What is the proper syntax that should be used for writing data to a sequential access file? 
+        a. cin >> data;
+        b. fileObject >> data; 
+        c. cout >> data;
+     **  d. fileObject << data;   **
+  
+Question 9.
+    Which of the following statements will create an input file object called inFile? 
+        a. fstream inFile;
+        b. cin inFile;
+     **  c. ifstream inFile;   **
+        d. ifcreate inFile;
+
+Question 10.
+    Which term best describes files that are read by the computer? 
+     **  a. input files   **
+        b. binary files 
+        c. text files
+        d. output files

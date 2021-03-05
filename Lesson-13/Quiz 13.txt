@@ -1,0 +1,114 @@
+Description: This is a 15-question multiple-choice Quiz.
+Instructions: Choose the best answer.
+NOTE: Answers are indicated by ** surrounding it.
+
+Question 1.
+    Which of the following statements gets a string from the keyboard until the newline character is encountered and assigns the string to a variable named myStr?
+    **  a. getline(cin, myStr, '/n');  **
+        b. getline(cin, myStr);
+        c. getline(myStr, cin);
+        d. getline(myStr, cin, '\n');
+    
+Question 2.
+    To remove one or more characters located anywhere in a string variable, which string class function would be used?
+        a. remove 
+        b. delete
+        c. truncate
+    **  d. erase  **
+    
+Question 3.
+    When using the "ignore" function, if you omit the "numberOfCharacters" argument, what is the default number of characters to consume?
+        a. 0
+    **  b. 1  **
+        c. up to the delimiter
+        d. all until the end-of-file is reached
+        
+Question 4.
+    Which of the following is NOT one of the fundamental data types in C++. 
+    **  a. string  **
+        b. char 
+        c. int 
+        d. float
+    
+Question 5.
+    Which of the following is the escape sequence that represents the newline character? 
+    **  a. '\n'  **
+        b. '\t'
+        c. '\endl' 
+        d. '/t'
+    
+Question 6.
+    To duplicate a single character a specified number of times and then assign the resulting string to a string variable, you would use which of the following functions?
+        a. dup
+        b. duplication 
+        c. replicate
+    **  d. assign  **
+    
+Question 7.
+    What is the name of the operator that can be used to get string input from the keyboard? 
+        a. modulus
+        b. ternary
+    **  c. extraction  **
+        d. insertion
+    
+Question 8.
+    Which of the following terms best describe the process of connecting (or linking) strings together? 
+        a. string linkage
+        b. string constructing 
+        c. string meshing
+    **  d. string concatenation  **
+    
+Question 9.
+    What value will be returned by the myStr.length() statement in the code below? 
+        string myStr = "Hello there";
+        int strlen = myStr.length();
+
+        a. 13 
+    **  b. 11  **
+        c. 12 
+        d. 10
+
+Question 10.
+    The getline function will continue to read the characters entered at the keyboard until it encounters which character?
+        a. pause
+    **  b. delimiter  **
+        c. initializer 
+        d. delineator
+    
+Question 11.
+    Which statement would be used to declare and initialize a string variable named zipCode? 
+    **  a. string zipCode = “”;  **
+        b. zipCode = “”;
+        c. init zipCode = “”;
+        d. declare zipCode = “”;
+    
+Question 12.
+    Which statement gets a string from the keyboard and stores it into the answer variable? 
+        a. answer >> cin;
+        b. cin << answer; 
+        c. get answer;
+    **  d. cin >> answer;  **
+    
+Question 13.
+    Which statement reads and consumes up to four characters until the tab character is encountered? 
+    **  a. cin.ignore(4, '\t');  **
+        b. cin.consume(4, '/t'); 
+        c. cin.discard('\t', 4); 
+        d. cin.discard(4, '\t');
+    
+Question 14.
+    What character is used as the concatenation operator in C++? 
+        a. &
+    **  b. +  **
+        c. && 
+        d. ||
+    
+Question 15.
+    What value will be assigned to resultStr when the following code is executed?
+        string newStr = "Hello there.";
+        resultStr = newStr.substr(1, 6);
+
+        a. Hello 
+    **  b. ello t  **
+        c. Hello t 
+        d. ello th

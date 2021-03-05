@@ -1,0 +1,26 @@
+Lesson 13 Instructions:
+
+Programming Operations that are covered here:
+    * Utilize string memory locations in a program (4)
+    * Get string input using the "getline" function (4)
+    * Ignore characters using the "ignore" function (4)
+    * Determine the number of characters in a string (4) 
+    * Access the characters in a string (4)
+    * Search a string (4)
+    * Remove characters from a string (4)
+    * Replace characters in a string (4)
+    * Insert characters within a string (4)
+    * Duplicate characters within a string (4) 
+    * Concatenate strings (4)
+
+1) Read and study Chapter 13 in your textbook, "An introduction to Programming with C++ by Diane Zak, 7th ed.".
+2) Skim the Chapter Summary and Key Terms at the end of the Chapter. 
+3) Attempt the Mini-Quizzes and Review Questions at the end of the Chapter to help prepare you
+    for the Quiz.
+4) Complete Lesson 13 Quiz
+    * You have a 30-minute time limit. On your honor.
+
+*******************************************************************************
+
+Lesson 13 Solution: 
+    * See the file "Quiz 13.txt"

@@ -1,0 +1,16 @@
+Lesson 14 Instructions:
+
+Objectives: (SLOs)
+    * Identify the commands to create, open, read, write and close file objects (4)
+    * Recognize the instructions to determine if a sequential access file was opened successfully (4) * Identify a test for the end of a sequential access file (4)
+
+1) Read and study Chapter 14 in your textbook.
+2) Skim the Chapter Summary and Key Terms at the end of the Chapter. 
+3) Attempt the Mini-Quizzes and Review Questions at the end of the Chapter to help prepare you for the Quiz.
+4) Complete Lesson 14 Quiz.
+5) Optional - it is strongly encouraged to read Chapter 15 (Classes and Objects).
+
+*******************************************************************************
+
+Lesson 14 Solution: 
+    * See the file "Quiz 14.txt"
