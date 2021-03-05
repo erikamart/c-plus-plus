@@ -1,0 +1,79 @@
+Description: This is a 10-question multiple-choice Quiz.
+Instructions: Choose the best answer.
+NOTE: Answers are indicated by ** surrounding it.
+
+Question 1.
+    Given the following array declaration, what is the value stored in the scores[2][3] element?
+        int scores[5][5] = {5};
+
+        a. 25
+    **  b. 0  **
+        c. 5
+        d. cannot be determined
+
+Question 2.
+    Given the following array declaration, what is the value stored in the scores[0][0] element?
+        int scores[5][5] = {5};
+
+        a. 25 
+    **  b. 5  **
+        c. 0 
+        d. 10
+
+Question 3.
+    Which of the following statements will declare a two-dimensional array called scores to be of the int data type and contain 3 rows and 4 columns, while also initializing all elements to 0?
+    **  a. int scores[3][4] = {0};  **
+        b. int scores [3][4] = 0; 
+        c. int scores [4][3] = 0; 
+        d. int scores[0] = {4, 3};
+
+Question 4.
+    Variables located in the first row in a two-dimensional array are assigned a row subscript of which of the following?
+    **  a. 0  **
+        b. 1
+        c. NULL 
+        d. -1
+
+Question 5.
+    What value should you assign the subscript to access the element located in the third column in a two-dimensional array?
+    **  a. 2  **
+        b. -3 
+        c. 1 
+        d. 3
+
+Question 6.
+    Which of the following would be used to refer to the element located in the second row, third column of a two-dimensional array named orders?
+        a. orders [2] [3] 
+        b. orders [1,2] 
+        c. orders [2, 3] 
+    **  d. orders [1] [2]  **
+
+Question 7.
+    How many loops are necessary to access the contents of a one-dimensional array efficiently?
+        a. 2 
+    **  b. 1  **
+        c. more than 2 
+        d. 0
+
+Question 8.
+    Given the following array declaration, what is the value stored in the scores[1][2] element?
+        int scores[3][3] = { {1, 2, 3}, {4, 5, 6}, {7, 8, 9} };
+
+        a.2 
+        b.5 
+    **  c.6  **
+        d.4
+
+Question 9.
+    What operator can be used to store data in an element in a two-dimensional array? 
+        a. insertion
+    **  b. extraction  **
+        c. ternary
+        d. increment
+
+Question 10.
+    In a two-dimensional array, what is used to specify each element's row and column positions in the array?
+        a. orders
+        b. variables 
+    **  c. subscripts  **
+        d. indexes

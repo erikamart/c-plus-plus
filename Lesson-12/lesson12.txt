@@ -1,0 +1,172 @@
+Lesson 12 Instructions:
+
+Objectives: (SLOs)
+    * Recognize how to declare, initialize, populate and display a two-dimensional array (4)
+    * Select operations to determine the total and average of the values in a two-dimensional array (4) 
+    * Select operations to access and search a two-dimensional array (4)
+    * Show a process to find the highest value in a one-dimensional array (4)
+    * Code an array in C++ (7)
+    * Fully develop a program using an array structure (7 and 8)
+
+1) Read and study Chapter 12 in your textbook, "An introduction to Programming with C++ by Diane Zak, 7th ed.".
+2) Skim the Chapter Summary and Key Terms at the end of the Chapter. 
+3) Attempt the Mini-Quizzes and Review Questions at the end of the Chapter to help prepare for your Quiz.
+4) Complete Lesson 12 Quiz.
+5) Complete Assignment - Lesson 12:
+
+    Objective: Experimentation with arrays in program development and C++.
+
+    Assignment:
+    A) Consider the following computer programming problem:
+        In one of the earlier sample programs, there was a car price calculator which used if..else statements to take a number of options and compute a total price. This will be similar but with arrays.
+
+        You are to write a program which inputs the base price of a car. Then, the program will input in a 2-letter code (a string) which corresponds to an option package.
+
+        All the 2 letter codes will be in an array (string), along with the corresponding cost of the package in a parallel array (doubles), and there is also another array with the name of the package (string).
+
+        Here is the data for the 3 parallel arrays:
+
+        OptionPackageCodeArray          PackageCostArray            PackageNameArray
+        BB                              1500.00                     Base
+        SP                              3250.00                     Sport
+        NP                              4575.00                     Intermediate level
+        HE                              7500.00                     Luxury
+        UC                              5220.00                     User specified
+
+        Your program first has to determine if the 2-letter code input by the user is valid. You are required to use a loop to check the input against each item in the optionPackageCodeArray. Begin with the first item then "walk" down through the array. If the code does NOT exist on the list, display an error message and stop. If the code is valid, do some calculation and displaying. First, add the base price to the package cost from the array and get a subtotal. Then, calculate 15% of the subtotal for taxes and fees and add that to the subtotal for a final price. Display the final price and the full name of the package from the last array, then stop.
+
+        Notes:
+        * You MUST define and use parallel arrays or you will get 0 points for this assignment.
+        * You MUST use a loop and search to find if the code that was input matches an option package code in the array or you will get 0 points for this assignment.
+        * Use doubles for ALL costs. Include dollar signs with your prompts and outputs and 2 decimal places for cents. 
+        * Keep the input prompts simple - do not show all the possible choices when prompting the user, for example.
+            * Remember, if a wrong code is entered the program will catch and report that.
+        * Do not use functions, just have one main ( ) for the whole program.
+        * You will find that there are examples in your book and in this course that can be of help with this task
+        * Don't forget to #include <string>
+        * Test your code. As an example, if we enter 34000 as the base price, and a code of HE, we should see, "The final cost for your vehicle with Luxury trim is $47725.00".
+        * And, of course if we enter 17500 as the base price and a code of KL, we should see an error message.
+
+    B)  Write up an IPO chart for this problem. Be sure to have an "Input, Processing, Output and Algorithm" part. 
+    
+    C) Desk-check your solution.
+
+    D) Make a folder on your computer called "Lesson12".
+
+    E) Type up your IPO in a word processor for submission.
+
+    F) Save your work in a file called "Lesson12IPO" in the "Lesson12" folder.
+
+    G) Create a new project. Call it "arrayProject" and place it in the "Lesson12" folder.
+
+    H) Click Project then "Add New Item" to make the area where you can enter the C++ code.
+        * Call the C++ program "Lesson12Code.cpp" 
+        * Be sure you include your name in a comment block at the top.
+
+    I) Using the IPO as a guide, as before, develop and enter the C++ program. Be sure to save all when you are complete. 
+    
+    J) Compile your program. Correct any errors until the compile is successful.
+
+    K) Execute your program and test it to be sure it works and produces the correct result.
+
+
+*******************************************************************************
+
+Lesson 12 Solution: 
+    * See the file "Quiz 12.txt"
+    * See the folder "Lesson12" and the file called "Lesson12IPO" for the solution to part B) above. The code is as follows:
+
+        Erika Martinez
+        Intro to Programming – C++
+        Assignment – Lesson 12
+        5-7-17
+
+        arrayProject Problem
+        Input: basePrice, optionCode
+
+        Processing: pkgCodeArray, pkgCostArray, pkgNameArray, pkgCost, subtotal, tax_fee, sub
+
+        Output: finalPrice, pkgName
+
+        Algorithm:
+        1.  enter the basePrice and optionCode
+        2.  repeat while (the subscript is less than or equal to 4 and the optionCode has not been found in the pkgCodeArray)
+            Add 1 to the subscript
+        end repeat
+        3. if (the subscript is less than or equal to 4)
+            use the subscript to identify element pkgName in pkgNameArray
+            use the subscript to identify element pkgCost in pkgCostArray
+            calculate subtotal by adding basePrice to pkgCost
+            calculate tax_fee by multiplying .15 to subtotal
+            calculate finalPrice by adding tax_fee to subtotal
+            display pkgName and finalPrice
+        else
+            display “Invalid option code!”
+        end if
+        End
+
+    * See the folder "Lesson12" and the file called "lesson12Code.cpp" for the solution to part A) above. The code is as follows:
+
+        // arrayProject Problem
+        // Intro C++, Lesson 12
+        // Written by Erika Martinez, May 7, 2017
+
+        #include <iostream>
+        #include <iomanip>
+        #include <string>
+        #include <algorithm>
+        using namespace std;
+        int main()
+        {
+            //Declare & initialize arrays
+            string pkgCodeArray[5] = { {"BB"}, {"SP"}, {"NP"}, {"HE"}, {"UC"} };
+            double pkgCostArray[5] = { {1500.00}, {3250.00}, {4575.00}, {7500.00}, {5220.00} };
+            string pkgNameArray[5] = { {"Base"}, {"Sport"}, {"Intermediate level"}, {"Luxury"}, {"User specified"} };
+
+            //Declare & initialize variables
+            double basePrice = 0.00;
+            string optionCode = "";
+            double pkgCost = 0.00;
+            double subtotal = 0.00;
+            double tax_fee = 0.00;
+            int sub = 0;
+            double finalPrice = 0.00;
+            string pkgName = "";
+
+
+            //Prompt the user for inputs
+            cout << "Enter the Base Price: $";
+            cin >> fixed >> setprecision(2);
+            cin >> basePrice;
+
+            cout << "Enter the two letter Option Code: ";
+            cin >> optionCode;
+            transform(optionCode.begin(), optionCode.end(), optionCode.begin(), (int(*)(int))toupper);
+
+            //Test if entered option code is valid
+            while (sub <= 4 && pkgCodeArray[sub] != optionCode)
+                sub += 1;
+            //end while
+            //If valid provide the subscript for the parallel name and cost arrays
+            if (sub <= 4) {
+                pkgName = pkgNameArray[sub];
+                pkgCost = pkgCostArray[sub];
+
+                //Do calculations and display final price and full package name
+                subtotal = basePrice + pkgCost;
+                tax_fee = subtotal * .15;
+                finalPrice = tax_fee + subtotal;
+
+                //Display the result
+                cout << fixed << setprecision(2);
+                cout << endl << "The final cost for your vehicle with " << pkgName << " trim is $" << finalPrice << endl;
+            }
+            
+            //If not a valid code display error message and stop program
+            else
+                cout << "Invalid option code!" << endl << endl;
+                //end if
+
+            system("pause");
+            return 0;
+        } //end of main
